@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <h3>Trip Planner</h3>
+  <hr>
+    <!-- PLACEHOLDER LIST OF PAGES -->
+
+
+
+       <form action="post">
+          <select name="hotels">
+        {% for hotel in hotelOps %}
+            <option value="{{hotel.name}}">{{hotel.name}}</option>
+        {% endfor %}
+          </select>
+          <br><br>
+          <input type="submit">
+        </form>
+
+
+       <form action="post">
+          <select name="restaurants">
+        {% for rest in restaurantOps %}
+            <option value="{{rest.name}}">{{rest.name}}</option>
+        {% endfor %}
+          </select>
+          <br><br>
+          <input type="submit">
+        </form>
+
+
+       <form action="post">
+          <select name="restaurants">
+        {% for activity in activityOps %}
+            <option value="{{activity.name}}">{{activity.name}}</option>
+        {% endfor %}
+          </select>
+          <br><br>
+          <input type="submit">
+        </form>
+
+
+
+{% endblock %}
