@@ -1,2 +1,44 @@
 body {
-  background-color: white; }
+  background-color: white;
+}
+
+.navbar-inverse .navbar-nav &gt; li &gt; a, .navbar-inverse .navbar-brand {
+    background-color: #fff;
+}
+
+.selectW {
+    width: 83%;
+    padding-right:10%;
+}
+
+.marginBottom{
+    margin-bottom: 20px;
+}
+
+.mainTitle{
+    padding-left: 10%;
+}
+
+.marginTop{
+    padding-top: 50px;
+}
+
+.selectB{
+    width: 15%;
+    padding-left: .3%;
+}
+
+.scrollH{
+    overflow: auto;
+    max-height: 220px;
+}
+
+.th-center{
+    text-align: center;
+}
+
+#map-canvas {
+    margin-top: 10px;
+    width:100%;
+    height:90vh;
+}
